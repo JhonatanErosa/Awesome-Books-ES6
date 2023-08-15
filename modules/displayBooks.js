@@ -1,4 +1,4 @@
-export class displayBooks {
+export class DisplayBooks {
 	showBooks(books, removeBooksCallback) {
 		const booksContainer = document.querySelector('#booksContainer');
 		booksContainer.innerHTML = '';
